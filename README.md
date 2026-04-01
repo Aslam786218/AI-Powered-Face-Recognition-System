@@ -92,7 +92,7 @@ pip install opencv-python
 pip install face-recognition  
 pip install numpy  
 pip install flask  
-
+pip install -r requirements.txt
 ---
 
 ### 3️⃣ Run the Application
