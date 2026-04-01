@@ -34,30 +34,33 @@ An AI-powered face recognition system that automatically detects and identifies 
 
 AI-Powered-Face-Recognition-System/
 
-│
+
 ├── known_faces/               
-│   └── download.jpg
+    
+    └── download.jpg
 
-│
-├── sample_images/             
-│   └── download.jpg
 
-│
-├── templates/                
-│   ├── login.html
-│   └── dashboard.html
+├── sample_images/ 
+    
+    └── download.jpg
 
-│
-├── attendance_system.py 
+
+├── templates/
+
+    └── login.html
+    
+    └── dashboard.html
+
+
+
+├── attendance_system.py
 
 ├── facerecognition_final.py 
 
 ├── liveness.py          
 
 ├── app.py                
-
 ├── README.md            
-
 └── .gitignore
 
 ---
@@ -78,7 +81,7 @@ AI-Powered-Face-Recognition-System/
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/AI-Powered-Face-Recognition-System.git
+git clone https://github.com/Aslam786218/AI-Powered-Face-Recognition-System.git
 cd AI-Powered-Face-Recognition-System
 
 ---
