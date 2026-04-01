@@ -33,22 +33,31 @@ An AI-powered face recognition system that automatically detects and identifies 
 ## 📁 Project Structure
 
 AI-Powered-Face-Recognition-System/
+
 │
 ├── known_faces/               
 │   └── download.jpg
+
 │
 ├── sample_images/             
 │   └── download.jpg
+
 │
 ├── templates/                
 │   ├── login.html
 │   └── dashboard.html
+
 │
-├── attendance_system.py      
-├── facerecognition_final.py  
-├── liveness.py               
-├── app.py                    
-├── README.md                 
+├── attendance_system.py 
+
+├── facerecognition_final.py 
+
+├── liveness.py          
+
+├── app.py                
+
+├── README.md            
+
 └── .gitignore
 
 ---
