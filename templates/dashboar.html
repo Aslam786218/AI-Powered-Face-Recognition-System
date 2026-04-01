@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body style="font-family: Arial; background: #1e1e1e; color: white; text-align: center; padding: 30px;">
+    <h2>Attendance Dashboard</h2>
+    <p>Welcome, {{ session['user'] }}</p>
+    <a href="/logout" style="color:red;">Logout</a>
+    <hr>
+    {% for file in files %}
+        <div style="margin: 10px;">
+            <p>{{ file }} 
+            <a href="{{ url_for('download', filename=file) }}" style="color: lightgreen;">Download as Excel</a></p>
+        </div>
+    {% else %}
+        <p>No attendance records found.</p>
+    {% endfor %}
+</body>
+</html>
 
